@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color: #fff;
+}
+ 
+header {
+    background-color: #F2F2F2;    
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;  
+}
+ 
+h1 {
+    margin-bottom: .1em;
+    margin-left: .5em;
+}
+ 
+button {
+    background-color: #20a8b4;
+    color: #fff;   
+    padding: 12px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;          
+}
+ 
+#contactUs {
+    width: 100%;
+    margin-bottom: 1em;
+    align-self: center;    
+}
+ 
+#learnMore {
+    width: 100%;
+}
+ 
+button:hover {
+    background-color: #ff5c0f;
+    cursor: pointer;
+}
+ 
+a:link, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #ff5c0f;
+    cursor: pointer;
+}
+ 
+ul {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 1em;
+}
+ 
+li{
+    padding: .3em;    
+}
+ 
+#text {
+    margin-top: 5em;  
+}
+ 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    padding-left: .6em ;
+    color: #000;
+}
+ 
+p {
+    padding-left: 1em ;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+ 
+img {
+    display: none;
+}
+ 
+.orangeText {
+    color: #ff5c0f
+}
+ 
+.blueText {
+    color: #20a8b4;
+}
+ 
+@media screen and (min-width: 768px) {
+    
+    header {
+        background-color: #F2F2F2;   
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: row;        
+        align-items: center;           
+    }
+    
+    h1{
+        margin: 15px;
+        width: 49%;
+    }
+ 
+    button {
+        margin: 15px;     
+    }
+ 
+    #contactUs {
+        width: auto;
+        margin-bottom: 1em;
+        align-self: center;    
+    }
+    
+    #learnMore {
+        width: auto;
+    }
+ 
+    #master {
+        display: flex;
+        flex-direction: row;       
+        align-items: center;
+    }
+ 
+    #text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0;
+    }   
+     
+    #image {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+ 
+    ul {       
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: auto;
+        margin-right: 0;        
+        width: 44em; 
+    }
+    
+    li{
+        padding: .5em;        
+    }
+   
+    img {
+        display: initial;
+        width: 50%;
+        margin: 8em;
+    }   
+}
